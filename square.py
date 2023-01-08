@@ -9,6 +9,6 @@ def f(i):
     return i * i
 
 if __name__ == "__main__":
-    x
+    with stub.run() as application:
         print(f.call(2))
         print(f.call(3))
