@@ -1,3 +1,4 @@
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tmylk/modal-kata/)
 # modal-kata
 
 A tutorial on Test Driven Development in the cloud with modal. The cloud push and test is under 10 seconds, so testing and debugging orchestration issues is a treat.  Conclusion: Yes it is fast, but you might still want to have a local dev env for even smoother experience.
