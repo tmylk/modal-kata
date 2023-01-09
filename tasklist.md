@@ -2,6 +2,19 @@
 
 Plot number of rides per day in NYC taxis 2018-2023
 
+## Gitpod setup for modal
+
+- Run `modal token new`
+- Press `Q` to exit Lynx browser
+- Manually go to the linnk in your browser to get the token
+- See this output
+  ```
+  Success!
+    Verifying token against https://api.modal.com
+    Token verified successfully
+    Token written to /home/gitpod/.modal.toml
+    ```
+
 ## Task List
 
 - [-] Done: read NYC Taxi rides for June 2022 and plot a simple graph of weekly rides

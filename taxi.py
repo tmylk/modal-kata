@@ -97,7 +97,7 @@ def create_plot():
     # Plot annotations
     pyplot.title("Number of NYC yellow taxi trips daily, 2018-2022")
     pyplot.ylabel("Number of daily trips")
-    pyplot.legend()
+    
     pyplot.tight_layout()
 
     # Dump PNG and return
