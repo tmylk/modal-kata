@@ -18,7 +18,7 @@ Plot number of rides per day in NYC taxis 2018-2023
 ## Task List
 
 - [-] Done: read NYC Taxi rides for June 2022 and plot a simple graph of weekly rides
-- [ ] run the code in Modal with `python taxi.py` command
+- [ ] START HERE: run the code in Modal with `python taxi.py` command
 - [ ] Look at the png graph returned. I expected it to show only June 2022, but it shows dates 2004 - 2024. Why is that? When plotting, we didn't specify any date ranges.
 - [ ] Run the tests and see output with `pytest -s test_taxi.py`. What does it say?
 - [ ] Let's explore the data in the database. Are all the entries from June 2022? Or are there some other dates? How many of them are there? Maybe we need to do data cleaning.
