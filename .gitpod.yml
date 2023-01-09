@@ -3,9 +3,9 @@ tasks:
   - name: install reqs and start test
     init: python3 -m pip install -r requirements.txt && pip install modal-client
     command: modal token new
-  - name: open code
-    command: code test_taxi.py
   - name: open tasklist
     command: code tasklist.md 
+  - name: open code
+    command: code test_taxi.py
   
     
