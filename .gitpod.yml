@@ -5,7 +5,5 @@ tasks:
     command: modal token new
   - name: open tasklist
     command: code tasklist.md 
-  - name: open code
-    command: code test_taxi.py
   
     
