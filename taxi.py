@@ -16,7 +16,7 @@ stub = modal.Stub(
 # Our query is pretty simple: it just aggregates total count numbers by date,
 
 
-@stub.function(interactive=True)
+@stub.function(interactive=False)
 def get_data():
     url = f"https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2022-06.parquet"
 
@@ -37,8 +37,8 @@ def get_data():
     
     con.execute("SELECT * FROM daily_pickups")
 
-    import IPython
-    IPython.embed()
+    # import IPython
+    # IPython.embed()
     # run in terminal:
     # my_df = con.df()
     # my_df.d.apply(lambda x:x.year).value_counts()
