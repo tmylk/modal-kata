@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 pytest-watch = "*"
 duckdb = "*"
-matplotlib = "*"
 
 [dev-packages]
 
